@@ -6,4 +6,4 @@ streamlit==1.10.0
 numpy==1.21.0
 plotly==5.8.2
 parsedatetime==2.6
-
+pyxlsb==1.0.9
