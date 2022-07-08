@@ -125,7 +125,7 @@ fig.update_layout(
 		ticktext = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 	)
 )
-fig.update_layout(height=600, width= 1600)
+fig.update_layout(height=400, width= 1000)
 
 st.write(fig)	
 
@@ -174,7 +174,7 @@ fig2.update_layout(
 		 ticktext = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 	)
 )
-fig2.update_layout(height=600, width= 1600)
+fig2.update_layout(height=400, width= 1000)
 
 st.write(fig2)	
 
