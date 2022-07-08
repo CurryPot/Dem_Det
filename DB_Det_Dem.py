@@ -13,8 +13,12 @@ from pyxlsb import open_workbook as open_xlsb
 
 warnings.filterwarnings('ignore')
 
-DATA_URL = r"\\WNSAN01\Server\Container Planning\output\old_outputs\web\DET.txt"
-DATA_URL2 = r"\\WNSAN01\Server\Container Planning\output\old_outputs\web\DEM.txt"
+#DATA_URL = r"\\WNSAN01\Server\Container Planning\output\old_outputs\web\DET.txt"
+#DATA_URL2 = r"\\WNSAN01\Server\Container Planning\output\old_outputs\web\DEM.txt"
+
+DATA_URL = (r"DET.txt")
+DATA_URL2 = (r"DEM.txt")
+
 det = pd.read_csv(DATA_URL, sep=",", header=None, index_col=False)
 dem = pd.read_csv(DATA_URL2, sep=",", header=None, index_col=False)
 
